@@ -31,7 +31,7 @@ jobs:
 
     - name: Pack and push
       env:
-        PROJECT_NAME: GithubPackagesTest
+        PROJECT_NAME: my-console-app
         DEPLOY_PACKAGE_URL: https://nuget.pkg.github.com/luggage66/index.json
         DEPLOY_PACKAGE_API_KEY: ${{ secrets.GITHUB_TOKEN }}
         REPO: ${{ github.repository }}
